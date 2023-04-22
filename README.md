@@ -28,7 +28,7 @@
    - To add your own templates to the HTML-Email repository, follow these steps:
 
    - Create a new directory for your template in the repository.
-   - Add an HTML file and a CSS file to the directory.
+   - Add an HTML file with inline CSS to the directory.
    - Edit the HTML and CSS files to create your own template.
    - Make sure to follow the HTML structure of the existing templates in the repository.
    - Test your template to make sure it is responsive and compatible with major email clients.

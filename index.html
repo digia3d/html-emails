@@ -16,8 +16,9 @@
 
     body {
       font-family: 'Montserrat', sans-serif;
-      background-color: rgba(225, 25, 48, 0.455);
+      background: linear-gradient(rgba(204, 52, 52, 0.665), rgba(0, 0, 0, 0.875));
       font-size: 18px;
+      width: 100%;
       max-width: 800px;
       margin: 0 auto;
       padding: 3%;
@@ -38,7 +39,7 @@
     }
 
     #wrapper {
-      background-color: rgba(243, 213, 216, 0.352);
+      background-color: rgb(204, 52, 52);
     }
 
     #social {
@@ -59,12 +60,14 @@
     h1,
     p {
       margin: 3%;
+      color: white;
     }
 
     .btn {
       float: right;
       margin: 0 3% 4% 0;
-      background-color: rgba(225, 25, 48, 0.846);
+      background-color: transparent;
+      border: 2px solid white;
       color: white;
       padding: 8px 12px;
       font-weight: 800;
@@ -75,7 +78,7 @@
 
     hr {
       height: 1px;
-      background-color: rgba(225, 25, 48, 0.846);
+      background-color: rgba(129, 126, 126, 0.846);
       clear: both;
       width: 96%;
       margin: auto;
@@ -86,7 +89,7 @@
       text-align: center;
       line-height: 16px;
       font-size: 12px;
-      color: rgba(56, 7, 13, 0.846);
+      color: rgba(250, 249, 249, 0.846);
     }
   </style>
 </head>
@@ -98,13 +101,13 @@
       </div>
       <div>
         <ul id="social">
-          <li><a href="https://www.facebook.com/wargaming.net/" target="_blank"><img src="https://digia3d.github.io/html-emails/img/fb-color.png" alt="facebook"></a></li>
-          <li><a href="https://twitter.com/wargaming_net" target="_blank"><img src="https://digia3d.github.io/html-emails/img/tw-color.png" alt="twitter"></a></li>
+          <li><a href="https://www.facebook.com/wargaming.net/" rel="noopener" target="_blank"><img src="https://digia3d.github.io/html-emails/img/fb-color.png" alt="facebook"></a></li>
+          <li><a href="https://twitter.com/wargaming_net" rel="noopener" target="_blank"><img src="https://digia3d.github.io/html-emails/img/tw-color.png" alt="twitter"></a></li>
         </ul>
       </div>
     </header>
     <div id="banner">
-      <img src="https://digia3d.github.io/html-emails/img/banner2.jpg" alt="banner">
+      <img class="banner__img" src="https://digia3d.github.io/html-emails/img/banner2.jpg" alt="banner" width="800" style="max-width: 100%;">
     </div>
     <div class="one-col">
       <h1>An example of how to create an html email</h1>
